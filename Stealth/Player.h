@@ -6,6 +6,7 @@ class Player:  public CharacterController
 private:
 	int height = 50;
 	int width = 50;
+	float speed;
 	Vector2 position;
 	Color color = BLUE;
 public:

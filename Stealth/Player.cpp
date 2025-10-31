@@ -23,14 +23,14 @@ void Player::Update(float deltaTime)
 void Player::Controls()
 {
 	if (IsKeyDown(KEY_W))
-		postion += speed;
+		position.x += CharacterController::speed;
 	if (IsKeyDown(KEY_A))
 	{
 
 	}
 	if (IsKeyDown(KEY_S))
 	{
-		position -= speed;
+		position.x -= speed;
 	}
 	if (IsKeyDown(KEY_A))
 	{

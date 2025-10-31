@@ -6,6 +6,7 @@ private:
 	int damage;
 	int range;
 	int ammo;
+	int rateofFire;
 public:
 	Weapon();
 	~Weapon();
