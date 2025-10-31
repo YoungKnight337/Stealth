@@ -6,6 +6,7 @@ class CharacterController
 private:
 	Vector2 position;
 	float speed;
+	int lives;
 public:
 	CharacterController();
 	~CharacterController();
