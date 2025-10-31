@@ -4,7 +4,7 @@ class Weapon
 {
 private:
 	int damage;
-
+	int range;
 public:
 	Weapon();
 	~Weapon();
