@@ -7,6 +7,8 @@ private:
 	Vector2 position;
 	float speed;
 	int lives;
+	bool isAlive;
+	bool isNPC;
 public:
 	CharacterController();
 	~CharacterController();
