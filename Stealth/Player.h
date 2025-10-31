@@ -8,7 +8,7 @@ private:
 public:
 	Player();
 	~Player();
-	void Update(float deltaTime) override;
+	void Update(float deltaTime);
 	void Draw();
 };
 
