@@ -5,7 +5,10 @@
 class Enemy: public CharacterController
 {
 private:
-	float;
+	int height = 50;
+	int width = 50;
+	Vector2 position;
+	Color color = RED;
 public:
 	Enemy();
 	~Enemy();
