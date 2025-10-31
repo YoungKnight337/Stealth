@@ -14,6 +14,7 @@ public:
 	void Update(float deltaTime);
 	void Draw();
 	void Control();
+	void Shoot();
 
 };
 
