@@ -5,6 +5,7 @@ class Weapon
 private:
 	int damage;
 	int range;
+	int ammo;
 public:
 	Weapon();
 	~Weapon();
