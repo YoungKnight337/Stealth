@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CharacterController.cpp" />
     <ClCompile Include="Stealth.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CharacterController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
