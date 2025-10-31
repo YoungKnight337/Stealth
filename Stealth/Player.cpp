@@ -19,3 +19,32 @@ void Player::Update(float deltaTime)
 {
 
 }
+
+void Player::Controls()
+{
+	if (IsKeyDown(KEY_W))
+	{
+
+	}
+	if (IsKeyDown(KEY_A))
+	{
+
+	}
+	if (IsKeyDown(KEY_S))
+	{
+
+	}
+	if (IsKeyDown(KEY_A))
+	{
+
+	}
+	if (IsKeyDown(KEY_SPACE))
+	{
+		Shoot();
+	}
+}
+
+void Player::Shoot()
+{
+
+}
