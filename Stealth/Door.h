@@ -1,4 +1,6 @@
 #pragma once
+#include "Interactable.h"
+
 class Door: public Interactable
 {
 private:
@@ -8,5 +10,6 @@ public:
 	~Door();
 	void Draw();
 	void Update(float deltaTime);
+
 };
 
