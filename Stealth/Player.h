@@ -7,6 +7,7 @@ private:
 	int height = 50;
 	int width = 50;
 	float speed;
+	bool hasWeapon;
 	Vector2 position;
 	Color color = BLUE;
 public:

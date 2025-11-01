@@ -36,5 +36,9 @@ void Player::Controls()
 
 void Player::Shoot()
 {
+	if (hasWeapon)
+	{
+
+	}
 
 }
