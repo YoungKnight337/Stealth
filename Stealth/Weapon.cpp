@@ -19,3 +19,8 @@ void Weapon::Update(float deltaTime)
 {
 
 }
+
+void Weapon::Interact()
+{
+
+}
