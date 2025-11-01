@@ -17,7 +17,7 @@ void Player::Draw()
 
 void Player::Update(float deltaTime)
 {
-
+	Controls();
 }
 
 void Player::Controls()
