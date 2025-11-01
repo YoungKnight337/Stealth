@@ -15,7 +15,16 @@ public:
 	void Draw();
 	void Update(float deltaTime);
 	void Interact();
-
-
 };
 
+class Pistol : public Weapon
+{
+	int damage : 10;
+	int range : 200;
+	int ammo : 12;
+	int rateofFire : 1;
+public:
+	Pistol();
+	~Pistol();
+
+};

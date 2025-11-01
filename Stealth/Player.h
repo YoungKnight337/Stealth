@@ -1,6 +1,8 @@
 #pragma once
 #include "CharacterController.h"
 
+class Weapon;
+
 class Player:  public CharacterController
 {
 private:
@@ -8,6 +10,7 @@ private:
 	int width = 50;
 	float speed;
 	bool hasWeapon;
+	Weapon* invent[2];
 	Vector2 position;
 	Color color = BLUE;
 public:
