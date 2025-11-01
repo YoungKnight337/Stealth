@@ -42,3 +42,8 @@ void Player::Shoot()
 	}
 
 }
+
+void Player::Interact()
+{
+
+}

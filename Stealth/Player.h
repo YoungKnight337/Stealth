@@ -17,6 +17,6 @@ public:
 	void Draw();
 	void Controls();
 	void Shoot();
-
+	void Interact();
 };
 
