@@ -2,6 +2,7 @@
 #include "raylib.h"
 #include "Interactable.h"
 
+enum
 class Weapon : public Interactable
 {
 private:
