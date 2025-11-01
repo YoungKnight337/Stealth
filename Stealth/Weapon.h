@@ -19,6 +19,7 @@ private:
 	int range;
 	int ammo;
 	int rateofFire;
+	Color color = DARKGRAY;
 	Vector2 position;
 public:
 	Weapon();

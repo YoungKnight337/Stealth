@@ -2,7 +2,7 @@
 
 Weapon::Weapon()
 {
-
+	
 }
 
 Weapon::~Weapon()
