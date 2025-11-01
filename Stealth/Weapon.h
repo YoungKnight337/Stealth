@@ -13,10 +13,13 @@ class Weapon : public Interactable
 {
 private:
 	int w_type;
+	int width;
+	int height;
 	int damage;
 	int range;
 	int ammo;
 	int rateofFire;
+	Vector2 position;
 public:
 	Weapon();
 	~Weapon();
