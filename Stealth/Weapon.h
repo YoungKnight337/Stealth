@@ -1,6 +1,8 @@
 #pragma once
 #include "raylib.h"
-class Weapon
+#include "Interactable.h"
+
+class Weapon : public Interactable
 {
 private:
 	int damage;
