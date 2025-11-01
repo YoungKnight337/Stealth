@@ -23,9 +23,6 @@ class Pistol : public Weapon
 	int range : 200;
 	int ammo : 12;
 	int rateofFire : 1;
-public:
-	Pistol();
-	~Pistol();
 };
 
 class Shotgun : public Weapon
