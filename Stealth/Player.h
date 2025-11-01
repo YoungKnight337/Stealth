@@ -14,7 +14,7 @@ public:
 	~Player();
 	void Update(float deltaTime);
 	void Draw();
-	void Control();
+	void Controls();
 	void Shoot();
 
 };
