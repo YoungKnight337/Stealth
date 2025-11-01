@@ -14,6 +14,7 @@ public:
 	~Weapon();
 	void Draw();
 	void Update(float deltaTime);
+	void Interact();
 
 
 };
