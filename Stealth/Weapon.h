@@ -26,5 +26,13 @@ class Pistol : public Weapon
 public:
 	Pistol();
 	~Pistol();
+};
 
+
+class Shotgun : public Weapon
+{
+	int damage : 25;
+	int range : 100;
+	int ammo : 8;
+	int rateofFire : 1;
 };
