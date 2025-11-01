@@ -4,7 +4,6 @@
 class Interactable
 {
 private:
-
 public:
 	Interactable();
 	~Interactable();
