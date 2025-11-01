@@ -28,7 +28,6 @@ public:
 	~Pistol();
 };
 
-
 class Shotgun : public Weapon
 {
 	int damage : 25;
