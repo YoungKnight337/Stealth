@@ -32,6 +32,8 @@ void Player::Controls()
 		position.y -= speed;
 	if (IsKeyDown(KEY_SPACE))
 		Shoot();
+	if (IsKeyDown(KEY_E))
+		Interact();
 }
 
 void Player::Shoot()
