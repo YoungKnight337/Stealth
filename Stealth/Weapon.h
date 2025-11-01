@@ -4,14 +4,15 @@
 
 enum w_type
 {
-	PISTOL,
-	SHOTGUN,
-	RIFLE
+	PISTOL = 0,
+	SHOTGUN = 1,
+	RIFLE = 2
 };
 
 class Weapon : public Interactable
 {
 private:
+	int w_type;
 	int damage;
 	int range;
 	int ammo;
