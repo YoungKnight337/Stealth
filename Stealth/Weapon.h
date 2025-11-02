@@ -27,6 +27,7 @@ public:
 	void Draw();
 	void Update(float deltaTime);
 	void Interact();
+	void Shoot();
 };
 
 class Pistol : public Weapon
