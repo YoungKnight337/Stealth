@@ -17,10 +17,15 @@ void Weapon::Draw()
 
 void Weapon::Update(float deltaTime)
 {
-	ammo--;
+	
 }
 
 void Weapon::Interact()
 {
 
+}
+
+void Weapon::Shoot()
+{
+	ammo--;
 }
