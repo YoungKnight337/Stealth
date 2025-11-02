@@ -33,8 +33,8 @@ public:
 class Pistol : public Weapon
 {
 	enum w_type : 0;
-	int width = 5;
-	int height = 5;
+	int width : 5;
+	int height : 5;
 	int damage : 10;
 	int range : 200;
 	int ammo : 12;
@@ -44,8 +44,8 @@ class Pistol : public Weapon
 class Shotgun : public Weapon
 {
 	enum w_type : 1;
-	int width = 10;
-	int height = 5;
+	int width : 10;
+	int height : 5;
 	int damage : 25;
 	int range : 100;
 	int ammo : 8;
@@ -55,8 +55,8 @@ class Shotgun : public Weapon
 class Rifle : public Weapon
 {
 	enum w_type : 2;
-	int width = 8;
-	int height = 5;
+	int width : 8;
+	int height : 5;
 	int damage : 15;
 	int range : 300;
 	int ammo : 30;
