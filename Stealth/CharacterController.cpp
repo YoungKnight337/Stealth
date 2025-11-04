@@ -12,3 +12,13 @@ void CharacterController::Update(float deltaTime)
 {
 	//Movement
 }
+
+void CharacterController::Draw()
+{
+	//Draw Character
+}
+
+void CharacterController::Movement()
+{
+
+}
