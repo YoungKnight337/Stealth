@@ -15,3 +15,7 @@ class Wall : public Tile
 	int weight = 100;
 };
 
+class Floor : public Tile
+{
+	int weight = 1;
+};
