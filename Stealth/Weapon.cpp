@@ -24,7 +24,7 @@ void Weapon::Interact()
 {
 	if (isPicked == false)
 	{
-		PickUp;
+		//PickUp;
 	}
 	if (ammo == 0)
 	{
