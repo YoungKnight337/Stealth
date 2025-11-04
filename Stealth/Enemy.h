@@ -17,6 +17,8 @@ public:
 	void Draw();
 	void Move();
 	void Follow();
-
+	void Patrol();
 };
+
+
 

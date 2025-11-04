@@ -33,3 +33,8 @@ void Enemy::Follow()
 {
 
 }
+
+void Enemy::Patrol()
+{
+
+}
