@@ -18,6 +18,7 @@ public:
 	void Movement();
 	void Damage(int health);
 	void Shoot();
+	void Slash();
 
 };
 
