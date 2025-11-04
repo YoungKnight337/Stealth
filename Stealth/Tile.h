@@ -10,3 +10,8 @@ public:
 	~Tile();
 };
 
+class Wall : public Tile
+{
+	int weight = 100;
+};
+
