@@ -12,7 +12,7 @@ Weapon::~Weapon()
 
 void Weapon::Draw()
 {
-
+	DrawRectangle(position.x, position.y, width, height, color);
 }
 
 void Weapon::Update(float deltaTime)
