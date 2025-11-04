@@ -10,7 +10,10 @@ CharacterController::~CharacterController()
 
 void CharacterController::Update(float deltaTime)
 {
-	//Movement
+	//Movement();
+	//Damage();
+	//Shoot();
+	//Slash();
 }
 
 void CharacterController::Draw()
