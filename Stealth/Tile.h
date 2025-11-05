@@ -25,3 +25,8 @@ class Floor : public Tile
 	Color color = LIGHTGRAY;
 };
 
+class Door : public Tile
+{
+	int weight = 75;
+	Color color = BROWN;
+};
