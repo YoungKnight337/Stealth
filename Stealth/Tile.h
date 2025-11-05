@@ -16,9 +16,12 @@ public:
 class Wall : public Tile
 {
 	int weight = 100;
+	Color color = DARKGRAY;
 };
 
 class Floor : public Tile
 {
 	int weight = 50;
+	Color color = LIGHTGRAY;
 };
+
