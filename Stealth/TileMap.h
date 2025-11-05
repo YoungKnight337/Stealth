@@ -6,7 +6,7 @@ class Tile;
 class TileMap
 {
 private:
-	Tile** map[n];
+	Tile** map[N];
 public:
 	TileMap();
 	~TileMap();
