@@ -16,3 +16,7 @@ public:
 	void Load();
 };
 
+class Room : public TileMap
+{
+
+};
