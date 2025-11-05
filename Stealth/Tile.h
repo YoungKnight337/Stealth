@@ -1,10 +1,13 @@
 #pragma once
+#include "raylib.h"
+
 class Tile
 {
 private:
 	int width;
 	int height;
 	int weight;
+	Color color;
 public:
 	Tile();
 	~Tile();
