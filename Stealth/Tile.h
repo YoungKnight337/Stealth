@@ -28,5 +28,7 @@ class Floor : public Tile
 class Door : public Tile
 {
 	int weight = 75;
+	bool isOpen = false;
+	bool locked = true;
 	Color color = BROWN;
 };
