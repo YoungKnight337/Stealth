@@ -32,6 +32,8 @@ void Player::Controls()
 		Attack();
 	if (IsKeyDown(KEY_E))
 		Interact();
+	if (IsKeyDown(KEY_R))
+		Reload();
 }
 void Player::Move()
 {
@@ -62,10 +64,14 @@ void Player::Attack()
 	{
 
 	}
-
 }
 
 void Player::Interact()
+{
+
+}
+
+void Player::Reload()
 {
 
 }

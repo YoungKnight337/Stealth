@@ -40,5 +40,6 @@ public:
 	void Attack();
 	void Interact();
 	void Look();
+	void Reload();
 };
 
