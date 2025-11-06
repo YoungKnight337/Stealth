@@ -14,6 +14,7 @@ public:
 	void Draw();
 	void Update(float deltaTime);
 	void Load();
+	void Seed();
 };
 
 class Room : public TileMap
