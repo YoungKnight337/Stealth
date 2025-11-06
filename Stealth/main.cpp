@@ -4,6 +4,7 @@
 #include <iostream>
 #include "raylib.h"
 
+
 int main()
 {
     static constexpr int SCREEN_WIDTH = 800;

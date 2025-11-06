@@ -26,10 +26,11 @@ void Weapon::Interact()
 	{
 		//PickUp;
 	}
-	if (ammo == 0)
+	/*if (ammo == 0)
 	{
 		//Drop
 	}
+	*/
 }
 
 void Weapon::Shoot()
