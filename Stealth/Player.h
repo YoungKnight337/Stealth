@@ -3,6 +3,12 @@
 
 class Weapon;
 
+enum STATE
+{
+	ALIVE = 0,
+	DEAD  = 1
+};
+
 class Player:  public CharacterController
 {
 private:
