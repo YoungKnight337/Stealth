@@ -7,6 +7,7 @@ enum type
 	FLOOR = 1,
 	DOOR  = 2
 };
+
 class Tile
 {
 private:
