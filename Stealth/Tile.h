@@ -4,8 +4,8 @@
 class Tile
 {
 private:
-	int width;
-	int height;
+	int width = 20;
+	int height = 20;
 	int weight;
 	Color color;
 };
