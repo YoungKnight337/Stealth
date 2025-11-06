@@ -21,19 +21,36 @@ void Player::Update(float deltaTime)
 void Player::Controls()
 {
 	if (IsKeyDown(KEY_W))
-		position.x += speed;
+
 	if (IsKeyDown(KEY_A))
-		position.y += speed;
+
 	if (IsKeyDown(KEY_S))
-		position.x -= speed;
+		
 	if (IsKeyDown(KEY_A))
-		position.y -= speed;
+
 	if (IsKeyDown(KEY_SPACE))
 		Attack();
 	if (IsKeyDown(KEY_E))
 		Interact();
 }
-
+void Player::Move()
+{
+	switch (DIRECTION)
+	{
+	case 0:
+		position.x -= speed;
+		break;
+	case 1:
+		position.x += speed;
+		break;
+	case 2: 
+		position.y -= speed;
+		break;
+	case 3:
+		position.y += speed;
+		break;
+	}
+}
 void Look()
 {
 
