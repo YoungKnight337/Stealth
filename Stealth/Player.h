@@ -9,7 +9,7 @@ private:
 	int height = 50;
 	int width = 50;
 	float speed;
-	bool hasWeapon;
+	bool hasWeapon = false;
 	Weapon* invent[2];
 	Vector2 position;
 	Color color = BLUE;
@@ -19,7 +19,7 @@ public:
 	void Update(float deltaTime);
 	void Draw();
 	void Controls();
-	void Shoot();
+	//void Shoot();
 	void Interact();
 };
 

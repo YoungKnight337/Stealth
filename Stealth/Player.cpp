@@ -34,14 +34,14 @@ void Player::Controls()
 		Interact();
 }
 
-void Player::Shoot()
+/*void Player::Shoot()
 {
 	if (hasWeapon)
 	{
 
 	}
 
-}
+}*/
 
 void Player::Interact()
 {
