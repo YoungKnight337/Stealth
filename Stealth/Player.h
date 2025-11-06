@@ -12,6 +12,7 @@ enum STATE
 class Player:  public CharacterController
 {
 private:
+	int STATE;
 	int height = 50;
 	int width = 50;
 	int lives = 3;
