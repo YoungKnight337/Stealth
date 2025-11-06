@@ -11,7 +11,7 @@ int main()
     static constexpr int FRAME_RATE = 60;
 
 
-    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Breakout");
+    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Stealth");
     SetTargetFPS(FRAME_RATE);
 
 
