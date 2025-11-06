@@ -22,5 +22,6 @@ public:
 	void Controls();
 	void Attack();
 	void Interact();
+	void Look();
 };
 

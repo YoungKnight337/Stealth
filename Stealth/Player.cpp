@@ -34,6 +34,11 @@ void Player::Controls()
 		Interact();
 }
 
+void Look()
+{
+
+}
+
 void Player::Attack()
 {
 	if (hasWeapon)

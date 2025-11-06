@@ -20,7 +20,7 @@ public:
 	void Movement();
 	void Damage(int health);
 	void Attack();
-	void Aim();
+	void Look();
 	void Interact();
 
 };
