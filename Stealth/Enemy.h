@@ -16,11 +16,19 @@ enum TYPE
 	BRUTE = 1 
 };
 
+enum DIRECTION
+{
+	LEFT  = 0,
+	RIGHT = 1,
+	UP    = 2,
+	DOWN  = 3
+};
 class Enemy: public CharacterController
 {
 private:
 	int STATE;
 	int TYPE;
+	int DIRECTION;
 	int height = 50;
 	int width  = 50;
 	int health = 100;

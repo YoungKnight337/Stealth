@@ -23,10 +23,21 @@ void Enemy::Update(float deltaTime)
 
 void Enemy::Move()
 {
-	//Move left
-	//Move Right
-	//Move Up
-	//Move Down
+	switch (DIRECTION)
+	{
+	case 0:
+		position.x -= speed;
+		break;
+	case 1:
+		position.x += speed;
+		break;
+	case 2:
+		position.y -= speed;
+		break;
+	case 3:
+		position.y += speed;
+		break;
+	}
 }
 
 void Enemy::Follow()
