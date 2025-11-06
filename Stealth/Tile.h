@@ -8,6 +8,9 @@ private:
 	int height = 20;
 	int weight;
 	Color color;
+public:
+	void Draw();
+	void Update();
 };
 
 class Wall : public Tile
