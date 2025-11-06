@@ -38,3 +38,8 @@ void Enemy::Patrol()
 {
 
 }
+
+void Enemy::Attack()
+{
+
+}

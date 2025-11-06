@@ -20,8 +20,7 @@ public:
 	void Draw();
 	void Movement();
 	void Damage(int health);
-	//void Shoot();
-	void Slash();
+	void Attack();
 	void Aim();
 	void Interact();
 

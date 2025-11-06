@@ -12,8 +12,7 @@ void CharacterController::Update(float deltaTime)
 {
 	//Movement();
 	//Damage();
-	//Shoot();
-	//Slash();
+	//Attack();
 }
 
 void CharacterController::Draw()
@@ -31,13 +30,7 @@ void CharacterController::Damage(int health)
 
 }
 
-void CharacterController::Shoot()
+void CharacterController::Attack()
 {
-
-}
-
-void CharacterController::Slash()
-{
-
 
 }
