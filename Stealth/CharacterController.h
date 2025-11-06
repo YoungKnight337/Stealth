@@ -4,15 +4,14 @@
 class CharacterController
 {
 private:
-	Vector2 position;
-	float speed;
 	int width;
 	int height;
-	int lives;
 	int health;
+	float speed;
 	bool hasWeapon;
 	bool isAlive;
 	bool isNPC;
+	Vector2 position;
 public:
 	CharacterController();
 	~CharacterController();

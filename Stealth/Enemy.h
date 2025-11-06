@@ -6,7 +6,8 @@ enum STATE
 {
 	PATROL = 0,
 	FOLLOW = 1,
-	ATTACK = 2
+	ATTACK = 2,
+	DEAD   = 3
 };
 
 enum TYPE
@@ -21,9 +22,12 @@ private:
 	int STATE;
 	int TYPE;
 	int height = 50;
-	int width = 50;
+	int width  = 50;
+	int health = 100;
+	float speed;
 	float lineofSight;
-	bool isNPC = true;
+	bool isAlive = true;
+	bool isNPC   = true;
 	Vector2 position;
 	Color color = RED;
 public:
@@ -36,6 +40,7 @@ public:
 	void Patrol();
 	void Attack();
 };
+
 
 
 

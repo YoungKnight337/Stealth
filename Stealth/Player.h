@@ -8,6 +8,7 @@ class Player:  public CharacterController
 private:
 	int height = 50;
 	int width = 50;
+	int lives = 3;
 	float speed;
 	bool hasWeapon = false;
 	Weapon* invent[2];
