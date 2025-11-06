@@ -9,6 +9,12 @@ enum STATE
 	ATTACK
 };
 
+enum TYPE
+{
+	CREEP,
+	BRUTE
+};
+
 class Enemy: public CharacterController
 {
 private:
