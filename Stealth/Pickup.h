@@ -1,12 +1,12 @@
 #pragma once
 #include "raylib.h"
 
-class Interactable
+class Pickup
 {
 private:
 public:
-	Interactable();
-	~Interactable();
+	Pickup();
+	Pickup();
 	void Draw();
 	void Update(float deltaTime);
 	void Interact();

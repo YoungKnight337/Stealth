@@ -9,7 +9,7 @@ enum w_type
 	RIFLE = 2
 };
 
-class Weapon : public Interactable
+class Weapon : public Pickup
 {
 private:
 	int w_type;
