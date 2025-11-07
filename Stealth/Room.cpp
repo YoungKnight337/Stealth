@@ -10,6 +10,10 @@ Room::~Room()
 
 }
 
+void Room::SeedMap()
+{
+
+}
 void Room::Draw()
 {
 

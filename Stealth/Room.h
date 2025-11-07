@@ -10,6 +10,7 @@ public:
 	Room();
 	~Room();
 	void Draw();
+	void SeedMap();
 	void Update(float deltaTime);
 };
 
