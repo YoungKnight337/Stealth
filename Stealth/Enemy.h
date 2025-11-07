@@ -44,6 +44,7 @@ public:
 	~Enemy();
 	void Update(float deltaTime);
 	void Draw();
+	void Behavior();
 	void Move();
 	void Follow();
 	void Patrol();

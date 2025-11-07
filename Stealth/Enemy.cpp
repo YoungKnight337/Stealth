@@ -18,9 +18,13 @@ void Enemy::Draw()
 
 void Enemy::Update(float deltaTime)
 {
-	Move();
+
 }
 
+void Enemy::Behavior()
+{
+
+}
 void Enemy::Move()
 {
 	switch (DIRECTION)
@@ -42,12 +46,12 @@ void Enemy::Move()
 
 void Enemy::Follow()
 {
-
+	Move();
 }
 
 void Enemy::Patrol()
 {
-
+	Move();
 }
 
 void Enemy::Attack()
