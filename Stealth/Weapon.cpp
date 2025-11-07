@@ -38,3 +38,8 @@ void Weapon::Shoot()
 
 	ammo--;
 }
+
+void Weapon::Reload()
+{
+	isReloading = true;
+}

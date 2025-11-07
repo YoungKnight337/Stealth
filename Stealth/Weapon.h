@@ -30,6 +30,7 @@ public:
 	void Update(float deltaTime);
 	void Interact();
 	void Shoot();
+	void Reload();
 };
 
 class Pistol : public Weapon
