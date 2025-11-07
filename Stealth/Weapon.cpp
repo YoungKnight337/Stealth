@@ -35,5 +35,6 @@ void Weapon::Interact()
 
 void Weapon::Shoot()
 {
+
 	ammo--;
 }

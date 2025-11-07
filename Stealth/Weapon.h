@@ -1,6 +1,6 @@
 #pragma once
 #include "raylib.h"
-#include "Interactable.h"
+#include "Pickup.h"
 
 enum w_type
 {
@@ -20,6 +20,7 @@ private:
 	int ammo;
 	int rateofFire;
 	bool isPicked;
+	bool isReloading;
 	Color color = DARKGRAY;
 	Vector2 position;
 public:
