@@ -15,6 +15,7 @@ private:
 	int width = 20;
 	int height = 20;
 	int weight;
+	Vector2 position;
 	Color color;
 public:
 	void Draw();
