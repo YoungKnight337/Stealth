@@ -6,6 +6,7 @@ TileMap::TileMap()
 
 TileMap::~TileMap()
 {
+
 }
 
 void TileMap::Draw()
@@ -14,10 +15,10 @@ void TileMap::Draw()
 	{
 		for (int j = 0; j < N; j++)
 		{
-
+			Tile::Draw();
 		}
 	}
-	Tile::Draw();
+	
 }
 
 void TileMap::Update(float deltaTime)
