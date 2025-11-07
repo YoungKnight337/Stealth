@@ -21,13 +21,13 @@ void Player::Update(float deltaTime)
 void Player::Controls()
 {
 	if (IsKeyDown(KEY_W))
-
+		DIRECTION = 2;
 	if (IsKeyDown(KEY_A))
-
+		DIRECTION = 0;
 	if (IsKeyDown(KEY_S))
-		
+		DIRECTION = 3;
 	if (IsKeyDown(KEY_A))
-
+		DIRECTION = 1;
 	if (IsKeyDown(KEY_SPACE))
 		Attack();
 	if (IsKeyDown(KEY_E))
