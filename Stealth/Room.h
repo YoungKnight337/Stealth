@@ -1,7 +1,8 @@
 #pragma once
 #include "raylib.h"
+#include "Tilemap.h"
 
-class Room
+class Room : public TileMap
 {
 private:
 
