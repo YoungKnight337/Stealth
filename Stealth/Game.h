@@ -3,11 +3,14 @@
 
 class Player;
 class EnemyManager;
-class Room;
+class TileMap;
 
 class Game
 {
 private:
+	Player* player;
+	EnemyManager* spawner;
+	TileMap* Room;
 public:
 	Game();
 	~Game();
