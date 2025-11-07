@@ -20,6 +20,7 @@ enum DIRECTION
 class Player:  public CharacterController
 {
 private:
+	int TYPE = 0;
 	int STATE;
 	int DIRECTION;
 	int height = 50;

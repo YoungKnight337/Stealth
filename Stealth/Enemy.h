@@ -26,6 +26,7 @@ enum DIRECTION
 class Enemy: public CharacterController
 {
 private:
+	int TYPE = 1;
 	int STATE;
 	int TYPE;
 	int DIRECTION;
