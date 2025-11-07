@@ -23,8 +23,8 @@ private:
 	int TYPE = 0;
 	int STATE;
 	int DIRECTION;
-	int height = 50;
-	int width = 50;
+	int width = 20;
+	int height = 20;
 	int lives = 3;
 	float speed;
 	bool hasWeapon = false;

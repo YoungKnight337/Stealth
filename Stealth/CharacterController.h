@@ -11,9 +11,9 @@ class CharacterController
 {
 private:
 	int TYPE;
-	int width;
-	int height;
-	int health;
+	int width  = 20;
+	int height = 20;
+	int health = 100;
 	float speed;
 	bool hasWeapon;
 	bool isAlive;

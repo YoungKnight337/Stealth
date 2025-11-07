@@ -12,8 +12,8 @@ class Tile
 {
 private:
 	int type;
-	int width = 100;
-	int height = 100;
+	int width = 20;
+	int height = 20;
 	int weight;
 	Color color;
 public:

@@ -30,8 +30,8 @@ class Enemy: public CharacterController
 private:
 	int STATE;
 	int DIRECTION;
-	int height = 50;
-	int width  = 50;
+	int width = 20;
+	int height = 20;
 	int health = 100;
 	float speed;
 	float lineofSight;
