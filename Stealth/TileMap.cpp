@@ -2,12 +2,10 @@
 
 TileMap::TileMap()
 {
-
 }
 
 TileMap::~TileMap()
 {
-
 }
 
 void TileMap::Draw()
