@@ -1,9 +1,16 @@
 #pragma once
 #include "raylib.h"
 
+enum TYPE
+{
+	PLAYER = 0,
+	ENEMY  = 1
+};
+
 class CharacterController
 {
 private:
+	int TYPE;
 	int width;
 	int height;
 	int health;
