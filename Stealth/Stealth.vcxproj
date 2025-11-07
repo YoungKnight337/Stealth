@@ -148,7 +148,6 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Pickup.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="Room.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="TileMap.h" />
     <ClInclude Include="Weapon.h" />

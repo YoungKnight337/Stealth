@@ -1,4 +1,4 @@
-#include "Room.h"
+#include "TileMap.h"
 
 Room::Room()
 {
@@ -10,7 +10,7 @@ Room::~Room()
 
 }
 
-void Room::SeedMap()
+void Room::Seed()
 {
 
 }

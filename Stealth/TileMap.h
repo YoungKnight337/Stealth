@@ -19,5 +19,12 @@ public:
 
 class Room : public TileMap
 {
-	
+private:
+	int id;
+public:
+	Room();
+	~Room();
+	void Draw();
+	void Seed();
+	void Update(float deltaTime);
 };
