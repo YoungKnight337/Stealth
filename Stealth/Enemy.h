@@ -29,7 +29,6 @@ class Enemy: public CharacterController
 {
 private:
 	int STATE;
-	int TYPE;
 	int DIRECTION;
 	int height = 50;
 	int width  = 50;
