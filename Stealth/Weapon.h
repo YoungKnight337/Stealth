@@ -4,9 +4,10 @@
 
 enum w_type
 {
-	PISTOL = 0,
-	SHOTGUN = 1,
-	RIFLE = 2
+	KNIFE   = 0,
+	PISTOL  = 1,
+	SHOTGUN = 2,
+	RIFLE   = 3
 };
 
 class Weapon : public Pickup
@@ -33,9 +34,19 @@ public:
 	void Reload();
 };
 
-class Pistol : public Weapon
+class Knife : public Weapon
 {
 	enum w_type : 0;
+	int width : 3;
+	int height : 5;
+	int damage : 10;
+	int range : 10;
+
+};
+
+class Pistol : public Weapon
+{
+	enum w_type : 1;
 	int width : 5;
 	int height : 5;
 	int damage : 10;
@@ -46,7 +57,7 @@ class Pistol : public Weapon
 
 class Shotgun : public Weapon
 {
-	enum w_type : 1;
+	enum w_type : 2;
 	int width : 10;
 	int height : 5;
 	int damage : 25;
@@ -57,7 +68,7 @@ class Shotgun : public Weapon
 
 class Rifle : public Weapon
 {
-	enum w_type : 2;
+	enum w_type : 3;
 	int width : 8;
 	int height : 5;
 	int damage : 15;
