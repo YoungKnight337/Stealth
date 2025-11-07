@@ -10,11 +10,12 @@ enum STATE
 	DEAD   = 3
 };
 
-enum TYPE
+/*enum TYPE
 {
 	CREEP = 0,
 	BRUTE = 1 
 };
+*/
 
 enum DIRECTION
 {
@@ -26,7 +27,7 @@ enum DIRECTION
 class Enemy: public CharacterController
 {
 private:
-	int TYPE = 1;
+	//int TYPE = 1;
 	int STATE;
 	int TYPE;
 	int DIRECTION;
