@@ -5,7 +5,7 @@
 class Room : public TileMap
 {
 private:
-
+	int id;
 public:
 	Room();
 	~Room();
