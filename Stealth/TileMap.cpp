@@ -9,6 +9,11 @@ TileMap::~TileMap()
 
 }
 
+void TileMap::Initialize()
+{
+
+}
+
 void TileMap::Draw()
 {
 	for (int i = 0; i < N; i++)

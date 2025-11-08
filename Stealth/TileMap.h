@@ -11,20 +11,9 @@ private:
 public:
 	TileMap();
 	~TileMap();
+	void Initialize();
 	void Draw();
 	void Update(float deltaTime);
 	void Load();
 	void Seed();
-};
-
-class Room : public TileMap
-{
-private:
-	int id;
-public:
-	Room();
-	~Room();
-	void Draw();
-	void Seed();
-	void Update(float deltaTime);
 };
