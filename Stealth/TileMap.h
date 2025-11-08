@@ -7,7 +7,7 @@ class TileMap
 {
 private:
 	const static int N = 20;
-	Tile** map[N];
+	Tile** map[N][N];
 public:
 	TileMap();
 	~TileMap();
