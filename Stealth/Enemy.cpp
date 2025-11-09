@@ -23,6 +23,11 @@ void Enemy::Update(float deltaTime)
 
 void Enemy::Behavior()
 {
+	//Patrol()
+	//IS PLAYER IN LOS
+		//Follow() 
+	//ELSE
+		//Patrol()
 
 }
 void Enemy::Move()
