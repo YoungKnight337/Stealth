@@ -57,6 +57,7 @@ void Enemy::Follow()
 void Enemy::Patrol()
 {
 	Move();
+	//LOS
 }
 
 void Enemy::Attack()
