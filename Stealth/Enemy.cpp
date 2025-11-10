@@ -18,7 +18,7 @@ void Enemy::Draw()
 
 void Enemy::Update(float deltaTime)
 {
-
+	Behavior();
 }
 
 void Enemy::Behavior()
