@@ -25,9 +25,11 @@ void Enemy::Behavior()
 {
 	//Patrol()
 	//IS PLAYER IN LOS
-		//Follow() 
+		//Follow();
+	//IF PLAYER IS IN RANGE
+		//Attack();
 	//ELSE
-		//Patrol()
+		//Patrol();
 
 }
 void Enemy::Move()
