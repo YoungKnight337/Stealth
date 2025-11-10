@@ -31,7 +31,6 @@ private:
 public:
 	CharacterController();
 	~CharacterController();
-	void Draw();
 	void Movement();
 	void Damage(int health);
 	void Attack();

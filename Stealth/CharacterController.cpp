@@ -8,11 +8,6 @@ CharacterController::~CharacterController()
 {
 }
 
-void CharacterController::Draw()
-{
-	//Draw Character
-}
-
 void CharacterController::Movement()
 {
 	switch (DIRECTION)
