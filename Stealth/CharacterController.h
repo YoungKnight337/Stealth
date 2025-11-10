@@ -7,10 +7,19 @@ enum TYPE
 	ENEMY  = 1
 };
 
+enum DIRECTION
+{
+	LEFT = 0,
+	RIGHT = 1,
+	UP = 2,
+	DOWN = 3
+};
+
 class CharacterController
 {
 private:
 	int TYPE;
+	int DIRECTION;
 	int width  = 20;
 	int height = 20;
 	int health = 100;
