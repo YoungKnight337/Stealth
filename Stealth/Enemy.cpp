@@ -23,13 +23,14 @@ void Enemy::Update(float deltaTime)
 
 void Enemy::Behavior()
 {
-	//Patrol()
-	//IS PLAYER IN LOS
-		//Follow();
-	//IF PLAYER IS IN RANGE
-		//Attack();
-	//ELSE
-		//Patrol();
+	//for(int i = 0; i < BEhAVIORS; i++)
+		//Patrol()
+		//IS PLAYER IN LOS
+			//Follow();
+		//IF PLAYER IS IN RANGE
+			//Attack();
+		//ELSE
+			//Patrol();
 
 }
 void Enemy::Move()
