@@ -22,7 +22,6 @@ private:
 public:
 	CharacterController();
 	~CharacterController();
-	void Update(float deltaTime);
 	void Draw();
 	void Movement();
 	void Damage(int health);

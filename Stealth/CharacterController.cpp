@@ -8,13 +8,6 @@ CharacterController::~CharacterController()
 {
 }
 
-void CharacterController::Update(float deltaTime)
-{
-	//Movement();
-	//Damage();
-	//Attack();
-}
-
 void CharacterController::Draw()
 {
 	//Draw Character
@@ -31,6 +24,16 @@ void CharacterController::Damage(int health)
 }
 
 void CharacterController::Attack()
+{
+
+}
+
+void CharacterController::Attack()
+{
+
+}
+
+void CharacterController::Interact()
 {
 
 }
