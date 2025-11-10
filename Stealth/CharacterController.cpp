@@ -42,11 +42,6 @@ void CharacterController::Attack()
 
 }
 
-void CharacterController::Attack()
-{
-
-}
-
 void CharacterController::Interact()
 {
 
