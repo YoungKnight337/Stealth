@@ -39,7 +39,10 @@ void Weapon::Shoot()
 	ammo--;
 }
 
-void Weapon::Reload()
+void Weapon::Reload(int i)
 {
-	isReloading = true;
+	if (i <= ammo)
+	{
+		ammo ++;
+	}
 }

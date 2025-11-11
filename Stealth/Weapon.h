@@ -31,7 +31,8 @@ public:
 	void Update(float deltaTime);
 	void Interact();
 	void Shoot();
-	void Reload();
+	void Reload(int i);
+	int GetAmmo() { return ammo; }
 };
 
 class Knife : public Weapon
