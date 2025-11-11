@@ -35,6 +35,5 @@ public:
 	void Damage(int health);
 	void Attack();
 	void Interact();
-
 };
 
