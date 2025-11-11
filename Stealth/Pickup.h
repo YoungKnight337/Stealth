@@ -4,11 +4,14 @@
 class Pickup
 {
 private:
+	int width;
+	int height;
+	Color color;
+	Vector2 position;
 public:
 	Pickup();
 	Pickup();
 	void Draw();
 	void Update(float deltaTime);
-	void Interact();
 };
 
