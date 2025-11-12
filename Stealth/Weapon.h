@@ -56,7 +56,7 @@ class Bat : public Weapon
 	int damage : 10;
 	int range : 10;
 	bool isFirearm = false;
-	Color color = BROWN;
+	Color color = BEIGE;
 };
 
 class Wrench : public Weapon
@@ -106,5 +106,5 @@ class Rifle : public Weapon
 	int ammo : 30;
 	int rateofFire : 1;
 	bool isFirearm = true;
-	Color color = DARKGRAY;
+	Color color = BROWN;
 };
