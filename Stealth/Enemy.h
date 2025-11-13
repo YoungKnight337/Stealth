@@ -2,6 +2,8 @@
 #include "raylib.h"
 #include "CharacterController.h"
 
+class Sight;
+
 enum STATE
 {
 	PATROL = 0,
