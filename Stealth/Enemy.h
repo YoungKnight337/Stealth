@@ -10,14 +10,6 @@ enum STATE
 	DEAD   = 3
 };
 
-//int TYPE = 1;
-/*enum TYPE
-{
-	CREEP = 0,
-	BRUTE = 1 
-};
-*/
-
 enum DIRECTION
 {
 	LEFT  = 0,
