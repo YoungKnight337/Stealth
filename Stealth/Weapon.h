@@ -31,7 +31,7 @@ public:
 	~Weapon();
 	void Draw();
 	void Update(float deltaTime);
-	void Interact();
+	//void Interact();
 	void Shoot();
 	void Reload(int i);
 	int GetAmmo() { return ammo; }
