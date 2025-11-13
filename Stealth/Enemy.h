@@ -47,17 +47,7 @@ public:
 	void Reload();
 };
 
-/*
-	PATROL
-	 
-	IF PLAYER IS SEEN
-		FOLLOW
-		IF PLAYER IS WITHIN RANGE
-			ATTACK
-		OTHERWISE
-			PATROL
 
-*/
 
 
 
