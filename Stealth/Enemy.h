@@ -42,8 +42,8 @@ public:
 	void Draw();
 	void Behavior();
 	void Move();
-	void Follow();
 	void Patrol();
+	void Follow();
 	void Attack();
 };
 
