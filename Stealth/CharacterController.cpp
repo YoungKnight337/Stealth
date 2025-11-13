@@ -29,7 +29,7 @@ void CharacterController::Movement()
 
 void CharacterController::Damage(int health)
 {
-
+	health -= health;
 }
 
 void CharacterController::Attack()

@@ -44,6 +44,7 @@ public:
 	void Patrol();
 	void Follow();
 	void Attack();
+	void Reload();
 };
 
 /*
