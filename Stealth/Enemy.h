@@ -20,7 +20,6 @@ enum DIRECTION
 	DOWN  = 3
 };
 
-//LOS ALGORITHM
 class Enemy: public CharacterController
 {
 private:
