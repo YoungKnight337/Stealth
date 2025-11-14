@@ -15,8 +15,5 @@ void Tile::Draw()
 	DrawRectangle(position.x, position.y, width, height, color);
 }
 
-void Tile::Update()
-{
 
-}
 

@@ -19,7 +19,6 @@ private:
 	Color color;
 public:
 	void Draw();
-	void Update();
 };
 
 class Wall : public Tile
@@ -31,6 +30,7 @@ private:
 public:
 	Wall();
 	~Wall();
+	void Draw();
 };
 
 class Floor : public Tile
@@ -42,6 +42,7 @@ private:
 public:
 	Floor();
 	~Floor();
+	void Draw();
 };
 
 class Door : public Tile
@@ -55,5 +56,6 @@ private:
 public:
 	Door();
 	~Door();
-
+	void Draw();
+	void Update();
 };
