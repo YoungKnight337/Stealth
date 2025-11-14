@@ -12,14 +12,19 @@ public:
 
 class Attack : public State
 {
-
+private:
+public:
 };
 
 class Patrol : public State
 {
+private:
+public:
 
 };
 
 class Follow : public State
 {
+private:
+public:
 };
