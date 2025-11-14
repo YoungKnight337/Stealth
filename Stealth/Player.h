@@ -3,12 +3,6 @@
 
 class Weapon;
 
-enum STATE
-{
-	ALIVE = 0,
-	DEAD  = 1
-};
-
 enum DIRECTION
 {
 	LEFT  = 0,
@@ -28,6 +22,7 @@ private:
 	int lives = 3;
 	float speed;
 	bool hasWeapon = false;
+	bool isAlive = true;
 	Weapon* invent[2];
 	Vector2 position;
 	Color color = BLUE;
