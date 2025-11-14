@@ -38,9 +38,6 @@ public:
 	void Draw();
 	void Controls();
 	void Move();
-	void Attack();
 	void Interact();
-	void Look();
-	void Reload();
 };
 

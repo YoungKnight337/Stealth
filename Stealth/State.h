@@ -37,3 +37,9 @@ public:
 	void Update();
 	void Exit();
 };
+
+class Reload : public State
+{
+private:
+public:
+};
