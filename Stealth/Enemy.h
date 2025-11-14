@@ -43,7 +43,6 @@ public:
 	void Move();
 	void Patrol();
 	void Follow();
-	void Attack();
 	void Reload();
 };
 

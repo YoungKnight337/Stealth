@@ -33,6 +33,5 @@ public:
 	~CharacterController();
 	void Movement();
 	void Damage(int health);
-	void Attack();
 };
 

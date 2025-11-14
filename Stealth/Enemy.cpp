@@ -63,11 +63,6 @@ void Enemy::Patrol()
 	//LOS
 }
 
-void Enemy::Attack()
-{
-
-}
-
 void Enemy::Reload()
 {
 
