@@ -24,10 +24,10 @@ public:
 class Wall : public Tile
 {
 private:
-	enum type : 0;
-	int width = 20;
-	int height = 20;
-	int weight = 100;
+	enum type  : 0;
+	int width  : 20;
+	int height : 20;
+	int weight : 100;
 	Vector2 position;
 	Color color = DARKGRAY;
 public:
@@ -39,10 +39,10 @@ public:
 class Floor : public Tile
 {
 private:
-	enum type : 1;
-	int width = 20;
-	int height = 20;
-	int weight = 50;
+	enum type  : 1;
+	int width  : 20;
+	int height : 20;
+	int weight : 50;
 	Vector2 position;
 	Color color = LIGHTGRAY;
 public:
@@ -54,10 +54,10 @@ public:
 class Door : public Tile
 {
 private:
-	enum type : 2;
-	int width = 20;
-	int height = 20;
-	int weight = 75;
+	enum type  : 2;
+	int width  : 20;
+	int height : 20;
+	int weight : 75;
 	bool isOpen = false;
 	bool locked = true;
 	Vector2 position;
