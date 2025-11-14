@@ -12,8 +12,8 @@ class Tile
 {
 private:
 	int type;
-	int width = 20;
-	int height = 20;
+	int width;
+	int height;
 	int weight;
 	Vector2 position;
 	Color color;
@@ -25,7 +25,10 @@ class Wall : public Tile
 {
 private:
 	enum type : 0;
+	int width = 20;
+	int height = 20;
 	int weight = 100;
+	Vector2 position;
 	Color color = DARKGRAY;
 public:
 	Wall();
@@ -37,7 +40,10 @@ class Floor : public Tile
 {
 private:
 	enum type : 1;
+	int width = 20;
+	int height = 20;
 	int weight = 50;
+	Vector2 position;
 	Color color = LIGHTGRAY;
 public:
 	Floor();
@@ -49,13 +55,19 @@ class Door : public Tile
 {
 private:
 	enum type : 2;
+	int width = 20;
+	int height = 20;
 	int weight = 75;
 	bool isOpen = false;
 	bool locked = true;
+	Vector2 position;
 	Color color = BROWN;
 public:
 	Door();
 	~Door();
-	void Draw();
+	void Draw() 
+	{
+		DrawRectangle(position.x, position.y, width, height, color);
+	}
 	void Update();
 };
