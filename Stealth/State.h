@@ -14,12 +14,18 @@ class Attack : public State
 {
 private:
 public:
+	void Enter();
+	void Update();
+	void Exit();
 };
 
 class Patrol : public State
 {
 private:
 public:
+	void Enter();
+	void Update();
+	void Exit();
 
 };
 
@@ -27,4 +33,7 @@ class Follow : public State
 {
 private:
 public:
+	void Enter();
+	void Update();
+	void Exit();
 };
