@@ -23,6 +23,7 @@ private:
 	float speed;
 	bool hasWeapon = false;
 	bool isAlive = true;
+	bool isNPC = false;
 	Weapon* invent[2];
 	Vector2 position;
 	Color color = BLUE;
