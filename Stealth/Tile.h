@@ -65,9 +65,6 @@ private:
 public:
 	Door();
 	~Door();
-	void Draw() 
-	{
-		DrawRectangle(position.x, position.y, width, height, color);
-	}
+	void Draw();
 	void Update();
 };
