@@ -42,4 +42,7 @@ class Reload : public State
 {
 private:
 public:
+	void Enter();
+	void Update();
+	void Exit();
 };
