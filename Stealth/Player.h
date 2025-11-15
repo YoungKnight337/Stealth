@@ -20,7 +20,7 @@ private:
 	int width = 20;
 	int height = 20;
 	int lives = 3;
-	float speed;
+	float speed = 50.0f;
 	bool hasWeapon = false;
 	bool isAlive = true;
 	bool isNPC = false;
