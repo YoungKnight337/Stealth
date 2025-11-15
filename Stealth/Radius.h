@@ -1,7 +1,7 @@
 #pragma once
 #include "raylib.h"
 
-class Sight
+class Radius
 {
 private:
 public:

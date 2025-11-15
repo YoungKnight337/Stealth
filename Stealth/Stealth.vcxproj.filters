@@ -48,7 +48,7 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sight.cpp">
+    <ClCompile Include="Radius.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="State.cpp">
@@ -86,7 +86,7 @@
     <ClInclude Include="Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sight.h">
+    <ClInclude Include="Radius.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="State.h">

@@ -135,7 +135,7 @@
     <ClCompile Include="Pickup.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Sight.cpp" />
+    <ClCompile Include="Radius.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="Tile.cpp" />
     <ClCompile Include="TileMap.cpp" />
@@ -149,7 +149,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Pickup.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="Sight.h" />
+    <ClInclude Include="Radius.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="TileMap.h" />
