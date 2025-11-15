@@ -29,7 +29,7 @@ private:
 	int width  = 20;
 	int height = 20;
 	int health = 100;
-	float speed;
+	float speed = 50.0f;
 	bool isAlive = true;
 	bool isNPC   = true;
 	Vector2 position;
