@@ -71,3 +71,20 @@ void Reload::Exit()
 {
 
 }
+//===============================
+//SEARCH
+//===============================
+void Search::Enter()
+{
+
+}
+
+void Search::Update()
+{
+
+}
+
+void Search::Exit()
+{
+
+}

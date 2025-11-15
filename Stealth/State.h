@@ -46,3 +46,12 @@ public:
 	void Update();
 	void Exit();
 };
+
+class Search : public State
+{
+private:
+public:
+	void Enter();
+	void Update();
+	void Exit();
+};
