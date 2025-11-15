@@ -7,9 +7,10 @@ class Sight;
 enum STATE
 {
 	PATROL = 0,
-	FOLLOW = 1,
-	ATTACK = 2,
-	DEAD   = 3
+	SEARCH = 1,
+	FOLLOW = 2,
+	ATTACK = 3,
+	DEAD   = 4
 };
 
 enum DIRECTION
