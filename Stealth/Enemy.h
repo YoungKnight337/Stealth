@@ -30,7 +30,6 @@ private:
 	int height = 20;
 	int health = 100;
 	float speed;
-	float lineofSight;
 	bool isAlive = true;
 	bool isNPC   = true;
 	Vector2 position;
