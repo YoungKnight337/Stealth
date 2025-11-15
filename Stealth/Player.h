@@ -2,7 +2,11 @@
 #include "CharacterController.h"
 
 class Weapon;
-
+enum STATE
+{
+	ATTACK,
+	RELOAD,
+};
 enum DIRECTION
 {
 	LEFT  = 0,
