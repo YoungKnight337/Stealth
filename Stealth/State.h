@@ -56,3 +56,11 @@ public:
 	void Exit();
 };
 
+class Interact : public State
+{
+private:
+public:
+	void Enter();
+	void Update();
+	void Exit();
+};

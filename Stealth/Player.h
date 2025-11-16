@@ -6,6 +6,7 @@ enum STATE
 {
 	ATTACK,
 	RELOAD,
+	INTERACT,
 };
 enum DIRECTION
 {
