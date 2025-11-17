@@ -1,7 +1,10 @@
 #pragma once
 #include "CharacterController.h"
 
-class Weapon;
+class PickUp;
+class Tile;
+class Enemy;
+
 enum STATE
 {
 	ATTACK,
