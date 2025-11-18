@@ -5,5 +5,7 @@ class TileMap;
 
 class RoomGenerator
 {
+private:
+public:
 };
 
