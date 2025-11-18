@@ -17,6 +17,7 @@ int main()
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Stealth");
     SetTargetFPS(FRAME_RATE);
 
+    game.Initialize();
 
     while (WindowShouldClose() == false)
     {
@@ -25,7 +26,7 @@ int main()
         BeginDrawing();
         ClearBackground(BLACK);
         game.Draw();
-
+        game.Update();
 
         EndDrawing();
     }
