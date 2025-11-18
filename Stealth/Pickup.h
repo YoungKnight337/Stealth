@@ -8,11 +8,6 @@ private:
 	int height;
 	Color color;
 	Vector2 position;
-public:
-	Pickup();
-	Pickup();
-	void Draw();
-	void Update(float deltaTime);
 };
 
 class Key : public Pickup
