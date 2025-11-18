@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "raylib.h"
+#include "Game.h"
 
 
 int main()
@@ -11,6 +12,7 @@ int main()
     static constexpr int SCREEN_HEIGHT = 450;
     static constexpr int FRAME_RATE = 60;
 
+    Game game;
 
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Stealth");
     SetTargetFPS(FRAME_RATE);
@@ -22,6 +24,7 @@ int main()
 
         BeginDrawing();
         ClearBackground(BLACK);
+        game.Draw();
 
 
         EndDrawing();
