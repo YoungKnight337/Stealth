@@ -4,6 +4,7 @@
 class PickUp;
 class Tile;
 class Enemy;
+class Weapon;
 
 enum STATE
 {
