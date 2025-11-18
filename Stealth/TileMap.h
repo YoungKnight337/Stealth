@@ -2,6 +2,8 @@
 #include "raylib.h"
 
 class Tile;
+class Key;
+class Enemy;
 
 class TileMap
 {
