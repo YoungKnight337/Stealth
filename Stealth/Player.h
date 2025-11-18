@@ -1,8 +1,7 @@
 #pragma once
 #include "CharacterController.h"
 
-class PickUp;
-class Tile;
+class Door;
 class Enemy;
 class Weapon;
 
