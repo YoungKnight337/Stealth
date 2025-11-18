@@ -18,9 +18,9 @@ public:
 class Key : public Pickup
 {
 private:
-	int width;
-	int height;
-	Color color;
+	int width = 2;
+	int height = 2;
+	Color color = YELLOW;
 	Vector2 position;
 public:
 	Key();
