@@ -6,7 +6,6 @@ TileMap::TileMap()
 
 TileMap::~TileMap()
 {
-
 }
 
 void TileMap::Initialize()
