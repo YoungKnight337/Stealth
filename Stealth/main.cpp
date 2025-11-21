@@ -21,8 +21,6 @@ int main()
 
     while (WindowShouldClose() == false)
     {
-
-
         BeginDrawing();
         ClearBackground(BLACK);
         game.Draw();

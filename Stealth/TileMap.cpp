@@ -48,8 +48,3 @@ void TileMap::Load()
 		}
 	}
 }
-
-void TileMap::Seed()
-{
-
-}
