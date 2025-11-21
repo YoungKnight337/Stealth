@@ -7,5 +7,7 @@ class RoomGenerator
 {
 private:
 public:
+	RoomGenerator();
+	~RoomGenerator();
 };
 
