@@ -2,6 +2,9 @@
 #include "raylib.h"
 
 class Tile;
+class Door;
+class Wall;
+class Floor;
 class Key;
 class Enemy;
 

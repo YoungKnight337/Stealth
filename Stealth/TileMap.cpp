@@ -14,7 +14,7 @@ void TileMap::Initialize()
 	{
 		for (int j = 0; j < N; j++)
 		{
-
+			
 		}
 	}
 }
@@ -25,7 +25,7 @@ void TileMap::Draw()
 	{
 		for (int j = 0; j < N; j++)
 		{
-			//Tile::Draw();
+
 		}
 	}
 	
