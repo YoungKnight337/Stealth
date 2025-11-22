@@ -6,7 +6,7 @@ private:
 public:
 	Command();
 	~Command();
-	virtual void execute() = 0;
+	virtual void Execute() = 0;
 };
 
 class MoveCommand : public Command
@@ -15,5 +15,5 @@ private:
 public: 
 	MoveCommand();
 	~MoveCommand();
-	void execute(); //{ move(); };
+	void Execute(); //{ Move(); };
 };
