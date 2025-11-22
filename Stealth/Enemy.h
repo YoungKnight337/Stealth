@@ -2,7 +2,7 @@
 #include "raylib.h"
 #include "CharacterController.h"
 
-class Sight;
+class Radius;
 
 enum STATE
 {

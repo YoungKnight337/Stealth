@@ -18,7 +18,9 @@ private:
 	Vector2 position;
 	Color color;
 public:
-	void Draw();
+	Tile();
+	virtual ~Tile();
+	virtual void Draw() = 0;
 };
 
 class Wall : public Tile

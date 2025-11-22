@@ -30,7 +30,7 @@ private:
 	Vector2 position;
 public:
 	CharacterController();
-	~CharacterController();
+	virtual ~CharacterController();
 	virtual void Movement() = 0;
 	virtual void Damage(int health) = 0;
 };
