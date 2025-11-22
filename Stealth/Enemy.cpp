@@ -33,6 +33,7 @@ void Enemy::Behavior()
 	*/
 
 }
+
 void Enemy::Move()
 {
 	switch (DIRECTION)
