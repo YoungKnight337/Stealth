@@ -35,3 +35,12 @@ public:
 	~ReloadCommand();
 	void Execute(); //{ Reload(); };
 };
+
+class InteractCommand : public Command
+{
+private:
+	public:
+		InteractCommand();
+		~InteractCommand();
+		void Execute(); //{ Interact(); };
+};
