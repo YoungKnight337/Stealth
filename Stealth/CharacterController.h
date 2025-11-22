@@ -31,7 +31,7 @@ private:
 public:
 	CharacterController();
 	~CharacterController();
-	void Movement();
-	void Damage(int health);
+	virtual void Movement() = 0;
+	virtual void Damage(int health) = 0;
 };
 
