@@ -10,5 +10,6 @@ private:
 public:
 	RoomGenerator();
 	~RoomGenerator();
+	void Seed();
 };
 
