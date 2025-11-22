@@ -6,6 +6,7 @@ class TileMap;
 class RoomGenerator
 {
 private:
+	TileMap* room;
 public:
 	RoomGenerator();
 	~RoomGenerator();
