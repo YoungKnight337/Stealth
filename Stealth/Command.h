@@ -17,3 +17,21 @@ public:
 	~MoveCommand();
 	void Execute(); //{ Move(); };
 };
+
+class AttackCommand :public Command
+{
+private:
+public:
+	AttackCommand();
+	~AttackCommand();
+	void Execute(); //{ Attack(); };
+};
+
+class ReloadCommand : public Command
+{
+private:
+public:
+	ReloadCommand();
+	~ReloadCommand();
+	void Execute(); //{ Reload(); };
+};
