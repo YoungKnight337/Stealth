@@ -5,27 +5,27 @@ class State
 {
 private:
 public:
-	void Enter();
-	void Update();
-	void Exit();
+	virtual void Enter();
+	virtual void Update();
+	virtual void Exit();
 };
 
 class Attack : public State
 {
 private:
 public:
-	void Enter();
-	void Update();
-	void Exit();
+	virtual void Enter();
+	virtual void Update();
+	virtual void Exit();
 };
 
 class Patrol : public State
 {
 private:
 public:
-	void Enter();
-	void Update();
-	void Exit();
+	virtual void Enter();
+	virtual void Update();
+	virtual void Exit();
 
 };
 
@@ -33,34 +33,34 @@ class Follow : public State
 {
 private:
 public:
-	void Enter();
-	void Update();
-	void Exit();
+	virtual void Enter();
+	virtual void Update();
+	virtual void Exit();
 };
 
 class Reload : public State
 {
 private:
 public:
-	void Enter();
-	void Update();
-	void Exit();
+	virtual void Enter();
+	virtual void Update();
+	virtual void Exit();
 };
 
 class Search : public State
 {
 private:
 public:
-	void Enter();
-	void Update();
-	void Exit();
+	virtual void Enter();
+	virtual void Update();
+	virtual void Exit();
 };
 
 class Interact : public State
 {
 private:
 public:
-	void Enter();
-	void Update();
-	void Exit();
+	virtual void Enter();
+	virtual void Update();
+	virtual void Exit();
 };
