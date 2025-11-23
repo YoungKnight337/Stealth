@@ -15,7 +15,7 @@ private:
 public: 
 	MoveCommand();
 	~MoveCommand();
-	void Execute(); //{ Move(); };
+	virtual void Execute(); //{ Move(); };
 };
 
 class AttackCommand :public Command
@@ -24,7 +24,7 @@ private:
 public:
 	AttackCommand();
 	~AttackCommand();
-	void Execute(); //{ Attack(); };
+	virtual void Execute(); //{ Attack(); };
 };
 
 class ReloadCommand : public Command
@@ -33,14 +33,14 @@ private:
 public:
 	ReloadCommand();
 	~ReloadCommand();
-	void Execute(); //{ Reload(); };
+	virtual void Execute(); //{ Reload(); };
 };
 
 class InteractCommand : public Command
 {
 private:
-	public:
-		InteractCommand();
-		~InteractCommand();
-		void Execute(); //{ Interact(); };
+public:
+	InteractCommand();
+	~InteractCommand();
+	virtual void Execute(); //{ Interact(); };
 };
