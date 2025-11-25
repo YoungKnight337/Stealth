@@ -44,5 +44,6 @@ public:
 	void Controls();
 	void Move();
 	void Interact();
+	void Attack();
 };
 

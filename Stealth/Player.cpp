@@ -29,6 +29,7 @@ void Player::Controls()
 	if (IsKeyDown(KEY_A))
 		DIRECTION = 1;
 	if (IsKeyDown(KEY_SPACE))
+		Attack();
 	if (IsKeyDown(KEY_E))
 		Interact();
 	if (IsKeyDown(KEY_R));
@@ -53,6 +54,11 @@ void Player::Move()
 }
 
 void Player::Interact()
+{
+
+}
+
+void Player::Attack()
 {
 
 }
