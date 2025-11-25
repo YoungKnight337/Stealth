@@ -67,3 +67,8 @@ void Enemy::Reload()
 {
 
 }
+
+void Enemy::Attack()
+{
+
+}

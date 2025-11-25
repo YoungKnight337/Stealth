@@ -40,7 +40,9 @@ public:
 	void Update(float deltaTime);
 	void Draw();
 	void Behavior();
-	void Move();
+	virtual void Move();
+	virtual void Attack();
+	virtual void Damage(int health);
 	void Patrol();
 	void Follow();
 	void Reload();

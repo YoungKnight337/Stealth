@@ -42,7 +42,8 @@ public:
 	void Update(float deltaTime);
 	void Draw();
 	void Controls();
-	void Move();
+	virtual void Damage(int health);
+	virtual void Move();
 	void Interact();
 	void Attack();
 };
