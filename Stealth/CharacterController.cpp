@@ -8,7 +8,7 @@ CharacterController::~CharacterController()
 {
 }
 
-void CharacterController::Movement()
+void CharacterController::Move()
 {
 	switch (DIRECTION)
 	{
