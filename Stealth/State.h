@@ -11,16 +11,6 @@ public:
 };
 
 
-
-class Follow : public State
-{
-private:
-public:
-	virtual void Enter();
-	virtual void Update();
-	virtual void Exit();
-};
-
 class Reload : public State
 {
 private:
