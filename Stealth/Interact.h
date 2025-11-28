@@ -1,7 +1,8 @@
 #pragma once
 #include "raylib.h"
+#include "State.h"
 
-class Interact
+class Interact: public State
 {
 private:
 public:
