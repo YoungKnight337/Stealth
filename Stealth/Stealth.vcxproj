@@ -143,6 +143,7 @@
     <ClCompile Include="Radius.cpp" />
     <ClCompile Include="Reload.cpp" />
     <ClCompile Include="RoomGenerator.cpp" />
+    <ClCompile Include="Search.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="Tile.cpp" />
     <ClCompile Include="TileMap.cpp" />
@@ -164,6 +165,7 @@
     <ClInclude Include="Radius.h" />
     <ClInclude Include="Reload.h" />
     <ClInclude Include="RoomGenerator.h" />
+    <ClInclude Include="Search.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="TileMap.h" />

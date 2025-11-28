@@ -1,14 +1,13 @@
 #pragma once
 #include "raylib.h"
-
-class State
+#include "State.h"
+class Search: public State
 {
 private:
 public:
 	virtual void Enter();
 	virtual void Update();
 	virtual void Exit();
+
 };
-
-
 
