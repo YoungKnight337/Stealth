@@ -1,22 +1,5 @@
 #include "State.h"
 
-//===============================
-//ATTACK
-//===============================
-void Attack::Enter()
-{
-
-}
-
-void Attack::Update()
-{
-
-}
-
-void Attack::Exit()
-{
-
-}
 
 //===============================
 //PATROL
