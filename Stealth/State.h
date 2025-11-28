@@ -11,15 +11,6 @@ public:
 };
 
 
-class Patrol : public State
-{
-private:
-public:
-	virtual void Enter();
-	virtual void Update();
-	virtual void Exit();
-
-};
 
 class Follow : public State
 {
