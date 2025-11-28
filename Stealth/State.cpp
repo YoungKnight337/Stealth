@@ -72,20 +72,3 @@ void Search::Exit()
 
 }
 
-//===============================
-//INTERACT
-//===============================
-void Interact::Enter()
-{
-
-}
-
-void Interact::Update()
-{
-
-}
-
-void Interact::Exit()
-{
-
-}
