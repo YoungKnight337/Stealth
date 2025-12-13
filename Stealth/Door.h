@@ -1,7 +1,8 @@
 #pragma once
-#include "Interactable.h"
+#include "raylib.h"
+#include "IInteractable.h"
 
-class Door: public Interactable
+class Door: public IInteractable
 {
 private:
 	bool locked;

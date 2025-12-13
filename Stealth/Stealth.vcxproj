@@ -136,6 +136,7 @@
     <ClCompile Include="FiniteStateMachine.cpp" />
     <ClCompile Include="Follow.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="IInteractable.cpp" />
     <ClCompile Include="Interact.cpp" />
     <ClCompile Include="Patrol.cpp" />
     <ClCompile Include="Pickup.cpp" />
@@ -160,6 +161,7 @@
     <ClInclude Include="FiniteStateMachine.h" />
     <ClInclude Include="Follow.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="IInteractable.h" />
     <ClInclude Include="Interact.h" />
     <ClInclude Include="Patrol.h" />
     <ClInclude Include="Pickup.h" />
