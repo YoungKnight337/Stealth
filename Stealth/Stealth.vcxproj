@@ -133,6 +133,7 @@
     <ClCompile Include="Door.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="EnemyManager.cpp" />
+    <ClCompile Include="FiniteStateMachine.cpp" />
     <ClCompile Include="Follow.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Interact.cpp" />
@@ -156,6 +157,7 @@
     <ClInclude Include="Door.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="EnemyManager.h" />
+    <ClInclude Include="FiniteStateMachine.h" />
     <ClInclude Include="Follow.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Interact.h" />
