@@ -12,5 +12,7 @@ private:
 public:
 	virtual ~FiniteStateMachine();
 	void Update();
+	void ChangeState(State* newState);
+	void AddState(State* state);
 };
 
