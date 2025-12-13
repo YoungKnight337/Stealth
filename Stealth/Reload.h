@@ -6,7 +6,7 @@ class Reload
 private:
 public:
 	virtual void Enter();
-	virtual void Update();
+	virtual void Update(float deltaTime);
 	virtual void Exit();
 
 
