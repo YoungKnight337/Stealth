@@ -15,13 +15,6 @@ enum STATE
 	DEAD   = 4
 };
 
-enum DIRECTION
-{
-	LEFT  = 0,
-	RIGHT = 1,
-	UP    = 2,
-	DOWN  = 3
-};
 
 class Enemy: public CharacterController
 {
