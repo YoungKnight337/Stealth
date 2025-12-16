@@ -15,7 +15,6 @@ enum STATE
 	DEAD   = 4
 };
 
-
 class Enemy: public CharacterController
 {
 private:
@@ -35,15 +34,14 @@ public:
 	void Draw();
 	void Behavior();
 	State* m_current;
-	//virtual void Move();
-	//virtual void Attack();
-	//virtual void Damage(int health);
-	void Patrol();
-	void Follow();
-	void Reload();
 };
 
-
+//virtual void Move();
+//virtual void Attack();
+//virtual void Damage(int health);
+//void Patrol();
+//void Follow();
+//void Reload();
 
 
 
