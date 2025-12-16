@@ -5,6 +5,7 @@ class Key;
 class Door;
 class Enemy;
 class Weapon;
+class Radius;
 
 enum STATE
 {
