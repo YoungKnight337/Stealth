@@ -3,6 +3,7 @@
 #include "CharacterController.h"
 
 class Radius;
+class FiniteStateMachine;
 
 enum STATE
 {

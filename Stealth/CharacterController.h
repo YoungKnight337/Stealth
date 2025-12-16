@@ -1,8 +1,6 @@
 #pragma once
 #include "raylib.h"
 
-class FiniteStateMachine;
-
 enum TYPE
 {
 	PLAYER = 0,
