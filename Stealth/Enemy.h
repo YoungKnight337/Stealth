@@ -3,6 +3,7 @@
 #include "CharacterController.h"
 
 class Radius;
+class State;
 class FiniteStateMachine;
 
 enum STATE
@@ -41,9 +42,10 @@ public:
 	void Update(float deltaTime);
 	void Draw();
 	void Behavior();
-	virtual void Move();
-	virtual void Attack();
-	virtual void Damage(int health);
+	State* m_current;
+	//virtual void Move();
+	//virtual void Attack();
+	//virtual void Damage(int health);
 	void Patrol();
 	void Follow();
 	void Reload();
