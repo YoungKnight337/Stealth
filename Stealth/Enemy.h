@@ -6,15 +6,6 @@ class Radius;
 class State;
 class FiniteStateMachine;
 
-enum STATE
-{
-	PATROL = 0,
-	SEARCH = 1,
-	FOLLOW = 2,
-	RELOAD = 3,
-	ATTACK = 4
-};
-
 class Enemy: public CharacterController
 {
 private:
