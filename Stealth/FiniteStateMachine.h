@@ -11,7 +11,8 @@ private:
 	State* currentState;
 	std::vector<State*> m_states;
 public:
-	virtual ~FiniteStateMachine();
+	FiniteStateMachine();
+	~FiniteStateMachine();
 	void Update();
 	void InitializeStates(Agent& Enemy);
 	void StateTransition(State* newState);
