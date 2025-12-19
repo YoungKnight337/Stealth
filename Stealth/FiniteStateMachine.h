@@ -3,6 +3,7 @@
 #include "raylib.h"
 
 class State;
+class Enemy;
 
 class FiniteStateMachine
 {
@@ -12,7 +13,9 @@ private:
 public:
 	virtual ~FiniteStateMachine();
 	void Update();
-	void ChangeState(State* newState);
+	void InitializeStates(Agent& Enemy);
+	void StateTransition(State* newState);
 	void AddState(State* state);
+	
 };
 
