@@ -14,6 +14,8 @@ class State
 {
 private:
 public:
+	State() {}
+	~State() {}
 	virtual void Enter();
 	virtual void Update(float deltaTime);
 	virtual void Exit();
