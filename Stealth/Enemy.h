@@ -11,8 +11,8 @@ enum STATE
 	PATROL = 0,
 	SEARCH = 1,
 	FOLLOW = 2,
-	ATTACK = 3,
-	DEAD   = 4
+	RELOAD = 3,
+	ATTACK = 4
 };
 
 class Enemy: public CharacterController
