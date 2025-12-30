@@ -13,7 +13,7 @@ private:
 public:
 	FiniteStateMachine();
 	~FiniteStateMachine();
-	void Update(Enemy& enemy);
+	void Update(Enemy& enemy, float deltaTime);
 	void InitializeStates(Enemy& enemy);
 	void StateTransition(State* newState);
 	void AddState(State* state);
