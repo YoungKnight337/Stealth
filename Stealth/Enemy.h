@@ -25,6 +25,7 @@ public:
 	void Draw();
 	void Behavior();
 	State* m_current;
+	FiniteStateMachine* sm_fsm;
 };
 
 //virtual void Move();
