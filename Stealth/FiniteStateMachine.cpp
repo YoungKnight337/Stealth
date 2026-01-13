@@ -15,7 +15,7 @@ void FiniteStateMachine::Update(Enemy& enemy, float deltaTime)
     State* newState = nullptr;
 
     // Check for transitions in the current state
-    for (const State::Transition& transition : m_currentState->GetTransitions())
+    for (const State::Transition& transition : currentState->GetTransitions())
     {
         if (transition.condition->IsTrue(enemy))
         {
@@ -25,13 +25,26 @@ void FiniteStateMachine::Update(Enemy& enemy, float deltaTime)
     }
 
     // If a new state is found, transition to the new state
-    if (newState != nullptr && newState != m_currentState)
+    if (newState != nullptr && newState != currentState)
     {
-        m_currentState->Exit(enemy);      // Exit the current state
-        m_currentState = newState;        // Change to the new state
-        m_currentState->Enter(enemy);     // Enter the new state (this will change color)
+        currentState->Exit(enemy);      // Exit the current state
+        currentState = newState;        // Change to the new state
+        currentState->Enter(enemy);     // Enter the new state (this will change color)
     }
 
     // Update the current state
-    m_currentState->Update(enemy, deltaTime);
+    currentState->Update(enemy, deltaTime);
+}
+
+void FiniteStateMachine::Enter(Enemy* enemy)
+{
+    if (currentState)
+    {
+        currentState->Enter(enemy);
+    }
+}
+
+void FiniteStateMachine::AddState(State* state)
+{
+
 }
