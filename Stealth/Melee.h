@@ -1,6 +1,13 @@
 #pragma once
 #include "raylib.h"
 #include "Pickup.h"
+
+enum e_type
+{
+	KNIFE  = 0,
+	BAT    = 1,
+	WRENCH = 2,
+};
 class Melee:public Pickup
 {
 public:

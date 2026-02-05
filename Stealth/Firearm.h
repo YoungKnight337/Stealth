@@ -4,12 +4,9 @@
 
 enum w_type
 {
-	KNIFE   = 0,
-	BAT     = 1,
-	WRENCH  = 2,
-	PISTOL  = 3,
-	SHOTGUN = 4,
-	RIFLE   = 5
+	PISTOL  = 0,
+	SHOTGUN = 1,
+	RIFLE   = 2
 };
 
 class Firearm : public Pickup
@@ -34,6 +31,7 @@ public:
 	void Shoot();
 	void Reload(int i);
 	int GetAmmo() { return ammo; }
+	int SetAmmo() { return ammo; }
 };
 
 
