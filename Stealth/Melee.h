@@ -10,6 +10,12 @@ enum e_type
 };
 class Melee:public Pickup
 {
+private: 
+	int e_type;
+	int width;
+	int height;
+	int damage;
+
 public:
 	Melee();
 	~Melee();
@@ -25,7 +31,6 @@ class Knife : public Melee
 	int height : 5;
 	int damage : 10;
 	int range : 10;
-	bool isFirearm = false;
 	Color color = LIGHTGRAY;
 };
 
@@ -36,7 +41,6 @@ class Bat : public Melee
 	int height : 5;
 	int damage : 10;
 	int range : 10;
-	bool isFirearm = false;
 	Color color = BEIGE;
 };
 
@@ -47,6 +51,5 @@ class Wrench : public Melee
 	int height : 5;
 	int damage : 10;
 	int range : 10;
-	bool isFirearm = false;
 	Color color = DARKGRAY;
 };
