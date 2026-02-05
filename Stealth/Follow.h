@@ -1,6 +1,8 @@
 #pragma once
 #include "raylib.h"
-class Follow
+#include "State.h"
+
+class Follow: public State
 {
 private:
 public:

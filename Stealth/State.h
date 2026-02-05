@@ -8,7 +8,7 @@ enum class STATE
 	FOLLOW = 2,
 	RELOAD = 3,
 	ATTACK = 4,
-	SHOOT =5
+	SHOOT  = 5
 };
 
 class State

@@ -1,7 +1,7 @@
 #pragma once
 #include "raylib.h"
 #include "State.h"
-class Reload
+class Reload: public State
 {
 private:
 public:
