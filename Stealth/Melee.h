@@ -19,9 +19,9 @@ private:
 public:
 	Melee();
 	~Melee();
-	void Draw();
-	void Update(float deltaTime);
-	void Interact();
+	virtual void Draw();
+	virtual void Update(float deltaTime);
+	virtual void Interact();
 };
 
 class Knife : public Melee
