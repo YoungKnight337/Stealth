@@ -63,3 +63,8 @@ void Player::Attack()
 
 }
 
+void Player::Damage(int health)
+{
+	lives -= health;
+
+}

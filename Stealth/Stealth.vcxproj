@@ -130,13 +130,11 @@
     <ClCompile Include="Attack.cpp" />
     <ClCompile Include="CharacterController.cpp" />
     <ClCompile Include="Command.cpp" />
-    <ClCompile Include="Door.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="EnemyManager.cpp" />
     <ClCompile Include="FiniteStateMachine.cpp" />
     <ClCompile Include="Follow.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="IInteractable.cpp" />
     <ClCompile Include="Interact.cpp" />
     <ClCompile Include="Patrol.cpp" />
     <ClCompile Include="Pickup.cpp" />
@@ -155,13 +153,11 @@
     <ClInclude Include="Attack.h" />
     <ClInclude Include="CharacterController.h" />
     <ClInclude Include="Command.h" />
-    <ClInclude Include="Door.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="EnemyManager.h" />
     <ClInclude Include="FiniteStateMachine.h" />
     <ClInclude Include="Follow.h" />
     <ClInclude Include="Game.h" />
-    <ClInclude Include="IInteractable.h" />
     <ClInclude Include="Interact.h" />
     <ClInclude Include="Patrol.h" />
     <ClInclude Include="Pickup.h" />
