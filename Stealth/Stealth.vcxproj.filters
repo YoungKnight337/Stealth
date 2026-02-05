@@ -27,7 +27,7 @@
     <ClCompile Include="Enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Weapon.cpp">
+    <ClCompile Include="Firearm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Pickup.cpp">
@@ -81,6 +81,9 @@
     <ClCompile Include="Shoot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Melee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CharacterController.h">
@@ -92,7 +95,7 @@
     <ClInclude Include="Enemy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Weapon.h">
+    <ClInclude Include="Firearm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Pickup.h">
@@ -144,6 +147,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Shoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Melee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

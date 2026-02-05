@@ -12,7 +12,7 @@ enum w_type
 	RIFLE   = 5
 };
 
-class Weapon : public Pickup
+class Firearm : public Pickup
 {
 private:
 	int w_type;
@@ -21,14 +21,13 @@ private:
 	int damage;
 	int range;
 	int ammo;
-	int rateofFire;
 	bool isPicked;
-	bool isFirearm;
+	bool isReloading;
 	Color color;
 	Vector2 position;
 public:
-	Weapon();
-	~Weapon();
+	Firearm();
+	~Firearm();
 	void Draw();
 	void Update(float deltaTime);
 	//void Interact();
@@ -37,40 +36,8 @@ public:
 	int GetAmmo() { return ammo; }
 };
 
-class Knife : public Weapon
-{
-	enum w_type : 0;
-	int width : 3;
-	int height : 5;
-	int damage : 10;
-	int range : 10;
-	bool isFirearm = false;
-	Color color = LIGHTGRAY;
-};
 
-class Bat : public Weapon
-{
-	enum w_type : 1;
-	int width : 3;
-	int height : 5;
-	int damage : 10;
-	int range : 10;
-	bool isFirearm = false;
-	Color color = BEIGE;
-};
-
-class Wrench : public Weapon
-{
-	enum w_type : 2;
-	int width : 3;
-	int height : 5;
-	int damage : 10;
-	int range : 10;
-	bool isFirearm = false;
-	Color color = DARKGRAY;
-};
-
-class Pistol : public Weapon
+class Pistol : public Firearm
 {
 	enum w_type : 3;
 	int width : 5;
@@ -78,12 +45,10 @@ class Pistol : public Weapon
 	int damage : 10;
 	int range : 200;
 	int ammo : 12;
-	int rateofFire : 1;
-	bool isFirearm = true;
 	Color color = DARKGRAY;
 };
 
-class Shotgun : public Weapon
+class Shotgun : public Firearm
 {
 	enum w_type : 4;
 	int width : 10;
@@ -91,12 +56,10 @@ class Shotgun : public Weapon
 	int damage : 25;
 	int range : 100;
 	int ammo : 8;
-	int rateofFire : 1;
-	bool isFirearm = true;
 	Color color = DARKGRAY;
 };
 
-class Rifle : public Weapon
+class Rifle : public Firearm
 {
 	enum w_type : 5;
 	int width : 8;
@@ -104,7 +67,5 @@ class Rifle : public Weapon
 	int damage : 15;
 	int range : 300;
 	int ammo : 30;
-	int rateofFire : 1;
-	bool isFirearm = true;
 	Color color = BROWN;
 };

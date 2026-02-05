@@ -136,6 +136,7 @@
     <ClCompile Include="Follow.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Interact.cpp" />
+    <ClCompile Include="Melee.cpp" />
     <ClCompile Include="Patrol.cpp" />
     <ClCompile Include="Pickup.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -148,7 +149,7 @@
     <ClCompile Include="State.cpp" />
     <ClCompile Include="Tile.cpp" />
     <ClCompile Include="TileMap.cpp" />
-    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="Firearm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Attack.h" />
@@ -160,6 +161,7 @@
     <ClInclude Include="Follow.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Interact.h" />
+    <ClInclude Include="Melee.h" />
     <ClInclude Include="Patrol.h" />
     <ClInclude Include="Pickup.h" />
     <ClInclude Include="Player.h" />
@@ -171,7 +173,7 @@
     <ClInclude Include="State.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="TileMap.h" />
-    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Firearm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
