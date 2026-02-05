@@ -1,21 +1,21 @@
-#include "Weapon.h"
+#include "Firearm.h"
 
-Weapon::Weapon()
+Firearm::Firearm()
 {
 	
 }
 
-Weapon::~Weapon()
+Firearm::~Firearm()
 {
 
 }
 
-void Weapon::Draw()
+void Firearm::Draw()
 {
 	DrawRectangle(position.x, position.y, width, height, color);
 }
 
-void Weapon::Update(float deltaTime)
+void Firearm::Update(float deltaTime)
 {
 	
 }
@@ -34,12 +34,12 @@ void Weapon::Update(float deltaTime)
 }
 */
 
-void Weapon::Shoot()
+void Firearm::Shoot()
 {
 	ammo--;
 }
 
-void Weapon::Reload(int i)
+void Firearm::Reload(int i)
 {
 	if (i <= ammo)
 	{
