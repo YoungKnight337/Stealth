@@ -8,7 +8,7 @@ enum e_type
 	BAT    = 1,
 	WRENCH = 2,
 };
-class Melee:public Pickup
+class Melee: public Pickup
 {
 private: 
 	int e_type;
@@ -19,6 +19,7 @@ private:
 public:
 	Melee();
 	~Melee();
+	virtual void Interact();
 	virtual void Draw();
 	virtual void Update(float deltaTime);
 	virtual void Interact();
