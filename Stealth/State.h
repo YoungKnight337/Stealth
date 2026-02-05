@@ -13,7 +13,9 @@ enum class STATE
 
 class State
 {
-private:
+protected:
+	const char* stateName;
+	const STATE stateID;
 public:
 	State() {}
 	~State() {}
