@@ -8,6 +8,7 @@ enum e_type
 	BAT    = 1,
 	WRENCH = 2,
 };
+
 class Melee: public Pickup
 {
 private: 
@@ -15,6 +16,9 @@ private:
 	int width;
 	int height;
 	int damage;
+	int range;
+	Vector2 position;
+
 
 public:
 	Melee();

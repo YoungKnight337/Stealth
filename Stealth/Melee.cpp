@@ -20,10 +20,9 @@ virtual void Melee::Update(float deltaTime)
 
 }
 
-Melee
 void Knife::Draw()
 {
-
+	DrawRectangle(position.x, position.y, width, height, color);
 }
 
 void Bat::Draw()
