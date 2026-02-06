@@ -25,6 +25,6 @@ private:
 public:
 	Key();
 	~Key();
-	void Draw();
-	void Update(float deltaTime);
+	virtual void Draw();
+	virtual void Update(float deltaTime);
 };
