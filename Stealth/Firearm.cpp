@@ -17,10 +17,10 @@ void Firearm::Draw()
 
 void Firearm::Update(float deltaTime)
 {
-	
+
 }
 
-/*void Weapon::Interact()
+void Firearm::Interact()
 {
 	if (isPicked == false)
 	{
@@ -32,7 +32,7 @@ void Firearm::Update(float deltaTime)
 	}
 	
 }
-*/
+
 
 void Firearm::Shoot()
 {
