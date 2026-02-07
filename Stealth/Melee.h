@@ -17,6 +17,7 @@ private:
 	int height;
 	int damage;
 	int range;
+	Color color;
 	Vector2 position;
 
 

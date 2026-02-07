@@ -10,22 +10,18 @@ Melee::~Melee()
 
 }
 
-virtual void Melee::Interact()
+void Melee::Interact()
 {
 
 }
 
-virtual void Melee::Update(float deltaTime)
+void Melee::Update(float deltaTime)
 {
 
 }
 
-void Knife::Draw()
+void Melee::Draw()
 {
 	DrawRectangle(position.x, position.y, width, height, color);
 }
 
-void Bat::Draw()
-{
-
-}

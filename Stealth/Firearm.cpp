@@ -33,7 +33,6 @@ void Firearm::Interact()
 	
 }
 
-
 void Firearm::Shoot()
 {
 	ammo--;
