@@ -68,3 +68,13 @@ void Player::Damage(int health)
 	lives -= health;
 
 }
+
+void Player::Shoot()
+{
+
+}
+
+void Player::Reload()
+{
+
+}
