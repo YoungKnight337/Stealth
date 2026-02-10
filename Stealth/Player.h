@@ -7,12 +7,6 @@ class Enemy;
 class Weapon;
 class Radius;
 
-enum STATE
-{
-	ATTACK,
-	RELOAD,
-	INTERACT,
-};
 enum DIRECTION
 {
 	LEFT  = 0,
@@ -25,7 +19,6 @@ class Player:  public CharacterController
 {
 private:
 	int TYPE = 0;
-	int STATE;
 	int DIRECTION;
 	int width = 20;
 	int height = 20;
@@ -47,5 +40,7 @@ public:
 	void Move();
 	void Interact();
 	void Attack();
+	void Shoot();
+	void Reload();
 };
 
