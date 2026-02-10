@@ -2,7 +2,7 @@
 #include "raylib.h"
 #include "Pickup.h"
 
-enum e_type
+enum m_type
 {
 	KNIFE  = 0,
 	BAT    = 1,
@@ -12,7 +12,7 @@ enum e_type
 class Melee: public Pickup
 {
 private: 
-	int e_type;
+	int m_type;
 	int width;
 	int height;
 	int damage;
@@ -32,7 +32,7 @@ public:
 
 class Knife : public Melee
 {
-	enum w_type : 0;
+	enum m_type : 0;
 	int width : 3;
 	int height : 5;
 	int damage : 10;
@@ -42,7 +42,7 @@ class Knife : public Melee
 
 class Bat : public Melee
 {
-	enum w_type : 1;
+	enum m_type : 1;
 	int width : 3;
 	int height : 5;
 	int damage : 10;
@@ -52,7 +52,7 @@ class Bat : public Melee
 
 class Wrench : public Melee
 {
-	enum w_type : 2;
+	enum m_type : 2;
 	int width : 3;
 	int height : 5;
 	int damage : 10;

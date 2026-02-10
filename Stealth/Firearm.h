@@ -2,7 +2,7 @@
 #include "raylib.h"
 #include "Pickup.h"
 
-enum w_type
+enum fa_type
 {
 	PISTOL  = 0,
 	SHOTGUN = 1,
@@ -12,7 +12,7 @@ enum w_type
 class Firearm : public Pickup
 {
 private:
-	int w_type;
+	int fa_type;
 	int width;
 	int height;
 	int damage;
@@ -37,7 +37,7 @@ public:
 
 class Pistol : public Firearm
 {
-	enum w_type : 3;
+	enum fa_type : 3;
 	int width : 5;
 	int height : 5;
 	int damage : 10;
@@ -48,7 +48,7 @@ class Pistol : public Firearm
 
 class Shotgun : public Firearm
 {
-	enum w_type : 4;
+	enum fa_type : 4;
 	int width : 10;
 	int height : 5;
 	int damage : 25;
@@ -59,7 +59,7 @@ class Shotgun : public Firearm
 
 class Rifle : public Firearm
 {
-	enum w_type : 5;
+	enum fa_type : 5;
 	int width : 8;
 	int height : 5;
 	int damage : 15;
