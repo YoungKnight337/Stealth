@@ -1,12 +1,8 @@
 #pragma once
 #include "raylib.h"
 
+//BSP Maze Generation
 class Tile;
-class Door;
-class Wall;
-class Floor;
-class Key;
-class Enemy;
 
 class TileMap
 {

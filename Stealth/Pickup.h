@@ -10,7 +10,7 @@ private:
 	Vector2 position;
 public:
 	Pickup();
-	virtual ~Pickup();
+	~Pickup();
 	virtual void Draw() = 0;
 	virtual void Update(float deltaTime) = 0;
 };

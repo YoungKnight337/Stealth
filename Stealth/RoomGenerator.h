@@ -2,6 +2,12 @@
 #include "raylib.h"
  
 class TileMap;
+class Door;
+class Wall;
+class Floor;
+class Key;
+class Enemy;
+//BSP Maze Generation
 
 class RoomGenerator
 {

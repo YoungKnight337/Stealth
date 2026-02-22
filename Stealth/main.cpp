@@ -24,7 +24,7 @@ int main()
         BeginDrawing();
         ClearBackground(BLACK);
         game.Draw();
-        game.Update();
+        game.Update(FRAME_RATE);
 
         EndDrawing();
     }

@@ -16,8 +16,8 @@ protected:
 	const char* stateName;
 	const STATE stateID;
 public:
-	State() {}
-	~State() {}
+	State();
+	~State();
 	virtual void Enter();
 	virtual void Update(float deltaTime);
 	virtual void Exit();

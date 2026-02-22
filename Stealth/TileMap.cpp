@@ -21,14 +21,14 @@ void TileMap::Initialize()
 
 void TileMap::Draw()
 {
-	for (int i = 0; i < N; i++)
+	/*for (int i = 0; i < N; i++)
 	{
 		for (int j = 0; j < N; j++)
 		{
 
 		}
 	}
-	
+	*/
 }
 
 void TileMap::Update(float deltaTime)

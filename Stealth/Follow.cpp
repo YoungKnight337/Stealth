@@ -5,7 +5,7 @@ void Follow::Enter()
 
 }
 
-void Follow::Update()
+void Follow::Update(float deltaTime)
 {
 
 }
