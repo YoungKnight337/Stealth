@@ -138,7 +138,6 @@
     <ClCompile Include="Pickup.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Radius.cpp" />
     <ClCompile Include="RoomGenerator.cpp" />
     <ClCompile Include="Search.cpp" />
     <ClCompile Include="State.cpp" />
@@ -157,7 +156,6 @@
     <ClInclude Include="Patrol.h" />
     <ClInclude Include="Pickup.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="Radius.h" />
     <ClInclude Include="RoomGenerator.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="Tile.h" />
