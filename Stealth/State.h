@@ -4,10 +4,8 @@
 enum class STATE
 {
 	PATROL = 0,
-	SEARCH = 1,
-	FOLLOW = 2,
-	ATTACK = 3,
-	SHOOT  = 4
+	FOLLOW = 1,
+	ATTACK = 2,
 };
 
 class State

@@ -69,12 +69,6 @@
     <ClCompile Include="FiniteStateMachine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Shoot.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Melee.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CharacterController.h">
@@ -122,16 +116,7 @@
     <ClInclude Include="Follow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Search.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="FiniteStateMachine.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Shoot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Melee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

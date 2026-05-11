@@ -5,7 +5,7 @@ void State::Enter()
 
 }
 
-void State::Update()
+void State::Update(float deltaTime)
 {
 
 }
