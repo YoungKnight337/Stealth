@@ -9,7 +9,6 @@ class FiniteStateMachine;
 class Enemy: public CharacterController
 {
 private:
-	int STATE;
 	int width  = 20;
 	int height = 20;
 	int health = 100;
