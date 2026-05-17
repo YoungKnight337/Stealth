@@ -48,3 +48,13 @@ void FiniteStateMachine::AddState(State* state)
 {
 
 }
+
+void FiniteStateMachine::InitializeStates(Enemy& enemy)
+{
+
+}
+
+void FiniteStateMachine::StateTransition(State* newState)
+{
+
+}
