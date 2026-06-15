@@ -5,6 +5,7 @@ class Key;
 class Door;
 class Enemy;
 class Weapon;
+class Firearm;
 class Radius;
 
 enum DIRECTION
@@ -36,11 +37,11 @@ public:
 	void Update(float deltaTime);
 	void Draw();
 	void Controls();
-	void Damage(int health);
+	void Damage(int health, int damage);
 	void Move();
 	void Interact();
 	void Attack();
-	void Shoot();
-	void Reload();
+	void Shoot(Firearm* weapon);
+	void Reload(Firearm* weapon);
 };
 

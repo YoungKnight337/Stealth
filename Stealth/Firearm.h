@@ -18,6 +18,8 @@ private:
 	int damage;
 	int range;
 	int ammo;
+	float fireRate;
+	float reloadTime;
 	bool isPicked;
 	bool isReloading;
 	Color color;
@@ -25,11 +27,13 @@ private:
 public:
 	Firearm();
 	~Firearm();
-	void Draw();
+	void Draw(); 
 	void Update(float deltaTime);
 	void Interact();
 	void Shoot();
 	void Reload(int i);
+	float GetCurrentReloadTime() const;
+	void SetCurrentReloadTime(float _reloadTime);
 	int GetAmmo() { return ammo; }
 	int SetAmmo() { return ammo; }
 };

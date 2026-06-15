@@ -16,6 +16,7 @@ void Player::Draw()
 void Player::Update(float deltaTime)
 {
 	Controls();
+	Move();
 }
 
 void Player::Controls()
@@ -34,6 +35,7 @@ void Player::Controls()
 		Interact();
 	if (IsKeyDown(KEY_R));
 }
+
 void Player::Move()
 {
 	switch (DIRECTION)
@@ -63,18 +65,18 @@ void Player::Attack()
 
 }
 
-void Player::Damage(int health)
+void Player::Damage(int health, int damage)
 {
-	lives -= health;
+	health -= damage;
 
 }
 
-void Player::Shoot()
+void Player::Shoot(Firearm* weapon)
 {
-
+	weapon::Shoot();
 }
 
-void Player::Reload()
+void Player::Reload(Firearm* weapon)
 {
-
+	weapon::Reload();
 }
